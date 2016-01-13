@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		739C98E21C4426910040D6AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C98E11C4426910040D6AC /* AppDelegate.swift */; };
+		739C98E41C4426910040D6AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C98E31C4426910040D6AC /* ViewController.swift */; };
+		739C98E71C4426910040D6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739C98E51C4426910040D6AC /* Main.storyboard */; };
+		739C98EA1C4426910040D6AC /* HideBomb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 739C98E81C4426910040D6AC /* HideBomb.xcdatamodeld */; };
+		739C98EC1C4426910040D6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739C98EB1C4426910040D6AC /* Assets.xcassets */; };
+		739C98EF1C4426910040D6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739C98ED1C4426910040D6AC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		739C98DE1C4426900040D6AC /* HideBomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideBomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		739C98E11C4426910040D6AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		739C98E31C4426910040D6AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		739C98E61C4426910040D6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		739C98E91C4426910040D6AC /* HideBomb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HideBomb.xcdatamodel; sourceTree = "<group>"; };
+		739C98EB1C4426910040D6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		739C98EE1C4426910040D6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		739C98F01C4426910040D6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739C98DB1C4426900040D6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739C98D51C44268F0040D6AC = {
+			isa = PBXGroup;
+			children = (
+				739C98E01C4426900040D6AC /* HideBomb */,
+				739C98DF1C4426900040D6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		739C98DF1C4426900040D6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				739C98DE1C4426900040D6AC /* HideBomb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739C98E01C4426900040D6AC /* HideBomb */ = {
+			isa = PBXGroup;
+			children = (
+				739C98E11C4426910040D6AC /* AppDelegate.swift */,
+				739C98E31C4426910040D6AC /* ViewController.swift */,
+				739C98E51C4426910040D6AC /* Main.storyboard */,
+				739C98EB1C4426910040D6AC /* Assets.xcassets */,
+				739C98ED1C4426910040D6AC /* LaunchScreen.storyboard */,
+				739C98F01C4426910040D6AC /* Info.plist */,
+				739C98E81C4426910040D6AC /* HideBomb.xcdatamodeld */,
+			);
+			path = HideBomb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		739C98DD1C4426900040D6AC /* HideBomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739C98F31C4426910040D6AC /* Build configuration list for PBXNativeTarget "HideBomb" */;
+			buildPhases = (
+				739C98DA1C4426900040D6AC /* Sources */,
+				739C98DB1C4426900040D6AC /* Frameworks */,
+				739C98DC1C4426900040D6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideBomb;
+			productName = HideBomb;
+			productReference = 739C98DE1C4426900040D6AC /* HideBomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739C98D61C44268F0040D6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dmitry Medvedev";
+				TargetAttributes = {
+					739C98DD1C4426900040D6AC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 29PFFY2HCF;
+					};
+				};
+			};
+			buildConfigurationList = 739C98D91C4426900040D6AC /* Build configuration list for PBXProject "HideBomb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739C98D51C44268F0040D6AC;
+			productRefGroup = 739C98DF1C4426900040D6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739C98DD1C4426900040D6AC /* HideBomb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739C98DC1C4426900040D6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739C98EF1C4426910040D6AC /* LaunchScreen.storyboard in Resources */,
+				739C98EC1C4426910040D6AC /* Assets.xcassets in Resources */,
+				739C98E71C4426910040D6AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739C98DA1C4426900040D6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739C98E41C4426910040D6AC /* ViewController.swift in Sources */,
+				739C98E21C4426910040D6AC /* AppDelegate.swift in Sources */,
+				739C98EA1C4426910040D6AC /* HideBomb.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		739C98E51C4426910040D6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739C98E61C4426910040D6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		739C98ED1C4426910040D6AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739C98EE1C4426910040D6AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		739C98F11C4426910040D6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		739C98F21C4426910040D6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		739C98F41C4426910040D6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HideBomb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.HideBomb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		739C98F51C4426910040D6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HideBomb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.HideBomb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739C98D91C4426900040D6AC /* Build configuration list for PBXProject "HideBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739C98F11C4426910040D6AC /* Debug */,
+				739C98F21C4426910040D6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739C98F31C4426910040D6AC /* Build configuration list for PBXNativeTarget "HideBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739C98F41C4426910040D6AC /* Debug */,
+				739C98F51C4426910040D6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		739C98E81C4426910040D6AC /* HideBomb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				739C98E91C4426910040D6AC /* HideBomb.xcdatamodel */,
+			);
+			currentVersion = 739C98E91C4426910040D6AC /* HideBomb.xcdatamodel */;
+			path = HideBomb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 739C98D61C44268F0040D6AC /* Project object */;
+}
